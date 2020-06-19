@@ -1,0 +1,12 @@
+#title{
+  background-color: #red;
+}
+
+.navbar {
+ height: 100px;
+}
+
+.nav-item a: hover{
+
+    color: black;
+  }
