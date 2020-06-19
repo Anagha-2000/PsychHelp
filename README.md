@@ -50,7 +50,7 @@ Tools used will be:
 `License`
 
 * [LICENSE](https://github.com/StudentCode-in/PsychHelp/blob/master/LICENSE)
-* Copyright 2020 
+* Copyright 2020 @ Anagha Patil
 
 *Note*: I will add on more info according to the advancement of the project.
 
