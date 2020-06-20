@@ -13,7 +13,7 @@ Student Code-in is a global program that helps students grow with “OPEN SOURCE
 ![alt STUDENT CODE-IN LOGO](https://github.com/StudentCode-in/PsychHelp/blob/master/STUDENT%20CODE-IN.jpg)
 
 # Vision
-![PychHelp](https://psych-help.netlify.app/) primarily focuses on people suffering from psychological problems like anxiety, depression, etc. With the help of this website, patients can directly interact with the doctors online without going in person. 
+[**_PychHelp_**](https://psych-help.netlify.app/) primarily focuses on people suffering from psychological problems like anxiety, depression, etc. With the help of this website, patients can directly interact with the doctors online without going in person. 
 
 The idea behind this is to make people come forward and address their psychological issues without being judged by the society. So that they can communicate with the doctor without any hesitation.
 # Objective: 
