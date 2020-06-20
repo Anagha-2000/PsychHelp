@@ -42,6 +42,9 @@ Tools used will be:
 
 `$ cd PsychHelp`
 
+## Live Site :
+-> You can see the live site at :
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a3b3468b-4ace-4191-99b2-583dcce58881/deploy-status)](https://app.netlify.com/sites/psych-help/deploys)
 
 # SITE MAP :
 ![alt SITE MAP](https://github.com/StudentCode-in/PsychHelp/blob/master/SITE%20MAP.png)
