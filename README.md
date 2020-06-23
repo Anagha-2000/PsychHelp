@@ -1,59 +1,68 @@
-# PsychHelp
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This Project is website and it is developed under [**_StudentCode-in_**](https://scodein.tech/)
+## Available Scripts
 
-# OPEN SOURCE CONTEST
+In the project directory, you can run:
 
-## STUDENT CODE IN
+### `npm start`
 
-**About SCI**
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Student Code-in is a global program that helps students grow with “OPEN SOURCE”. It is a 2 months long Open-Source initiative which provides you the best platform to improve your skills and abilities by contributing to vast variety of OPEN SOURCE Projects. In this,all the registered participants would get an exquisite opportunity to interact with the mentors and the Organizing Team. 
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-![alt STUDENT CODE-IN LOGO](https://github.com/StudentCode-in/PsychHelp/blob/master/STUDENT%20CODE-IN.jpg)
+### `npm test`
 
-# Vision
-[**_PychHelp_**](https://psych-help.netlify.app/) primarily focuses on people suffering from psychological problems like anxiety, depression, etc. With the help of this website, patients can directly interact with the doctors online without going in person. 
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-The idea behind this is to make people come forward and address their psychological issues without being judged by the society. So that they can communicate with the doctor without any hesitation.
-# Objective: 
+### `npm run build`
 
-This website will help people suffering from psychological problems, can directly communicate with the doctor, without coming in person.
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-# Tools Used:
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-Tools used will be: 
-* HTML
-* CSS
-* JavaScript
-* jQuery
-* Express.js 
-* Node.js
-* React
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-# Installation :
-## Clone :
-->  Clone this repo to your local machine as:
+### `npm run eject`
 
-`$ git clone https://github.com/StudentCode-in/PsychHelp.git`
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-## Setup :
-->  Change your directory to the cloned repo as:
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-`$ cd PsychHelp`
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-## Project Status :
--> You can see the progress of the site at :
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a3b3468b-4ace-4191-99b2-583dcce58881/deploy-status)](https://app.netlify.com/sites/psych-help/deploys)
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-# SITE MAP :
-![alt SITE MAP](https://github.com/StudentCode-in/PsychHelp/blob/master/SITE%20MAP.png)
+## Learn More
 
-# LICENSE :
-`License`
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-* [LICENSE](https://github.com/StudentCode-in/PsychHelp/blob/master/LICENSE)
-* Copyright 2020 @ Anagha Patil
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-*Note*: I will add on more info according to the advancement of the project.
+### Code Splitting
 
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
