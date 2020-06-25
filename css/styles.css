@@ -6,7 +6,23 @@
  height: 100px;
 }
 
-.nav-item a: hover{
+.nav-item a:hover{
 
     color: black;
-  }
+}
+
+.blog :hover
+{
+  background-color: black;
+  color: white;
+}
+
+
+.blogs
+{
+  border : 2px solid grey;
+  border-radius: 7px;
+}
+
+
+
