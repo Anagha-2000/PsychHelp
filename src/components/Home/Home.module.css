@@ -1,0 +1,71 @@
+.Home {
+    height: 677px;
+    width: 100%;
+}
+
+.cardColumn, .imageColumn {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.title {
+    margin-left: 100px;
+}
+
+@media only screen and (max-width: 992px) {
+    .title {
+        margin-left: 50px;
+    }
+      
+}
+
+@media only screen and (max-width: 768px) {
+    .imageColumn {
+        order: -1;
+    }
+}
+
+.imageColumn img {
+    height: 65%;
+    width: 65%;
+}
+
+.cardRow {
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 560px) {
+    .imageColumn img {
+        height: 60%;
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .imageColumn img {
+        height: 60%;
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .cardRow {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cardAlignment {
+        margin-left: 5%;
+        margin-right: 3%;
+        margin-bottom: 20px;
+    }
+}
+
+.cardAlignment {
+    margin-left: 5%;
+    margin-right: 3%;
+}

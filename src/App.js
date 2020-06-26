@@ -1,35 +1,21 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from './components/Home/Home';
+import Login from './components/Login/Login';
+import Signup from './components/Signup/Signup';
 
-class App extends Component {
-
-  constructor(props) {
-    super(props);
-    this.state = { data: "" };
-  }
-
-  callAPI() {
-    fetch('http://localhost:4000')
-      .then(res => res.text())
-      .then(res => this.setState({ data: res }));
-  }
-
-  componentWillMount() {
-    this.callAPI();
-  }
-
-  render() {
+function App() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">{this.state.data}</p>
-      </div>
+        <Router>
+            <div className="App">
+                <Switch>
+                  <Route path='/' exact component={Home}></Route>
+                  <Route path='/login' component={Login}></Route>
+                  <Route path='/signup' component={Signup}></Route>
+                </Switch>
+            </div>
+        </Router>
     );
-  }
 }
 
 export default App;
