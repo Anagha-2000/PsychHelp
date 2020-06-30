@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "../../UI/Navbar/Navbar";
 import classes from "./Home.module.css";
 import hero from "../../assets/hero.png";
+import Doctor from "src\components\About Us\Doctor.jsx";
+import Patient from "src\components\About Us\Patient.jsx";
 
 const Home = () => {
     return (
@@ -32,7 +34,7 @@ const Home = () => {
                                     With supporting text below as a natural
                                     lead-in to additional content.
                                 </p>
-                                <button className="btn btn-primary">
+                                <button className="btn btn-primary" onClick={Doctor}>
                                     Learn More
                                 </button>
                             </div>
@@ -46,7 +48,7 @@ const Home = () => {
                                     With supporting text below as a natural
                                     lead-in to additional content.
                                 </p>
-                                <button className="btn btn-primary">
+                                <button className="btn btn-primary" onClick={Patient}>
                                     Learn More
                                 </button>
                             </div>
