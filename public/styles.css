@@ -1,29 +1,38 @@
  #title{
     background-color: #fafafa;
   }
-  
+
   .navbar {
    height: 100px;
   }
-  
+
   .nav-item a:hover{
-  
+
       color: black;
   }
-  
+
   .blog :hover
   {
     background-color: black;
     color: white;
   }
-  
-  
+
+
   .blogs
   {
     border : 2px solid grey;
     border-radius: 7px;
   }
-  
-  
-  
-  
+
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: black;
+}

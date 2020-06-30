@@ -5,7 +5,7 @@ import hero from "../../assets/hero.png";
 import Doctor from "./About Us/Doctor";
 import Patient from "./About Us/Patient";
 import { Link } from "react-router-dom";
-import Footer from "../Footer";
+
 
 const Home = () => {
   const routeChangeDoctor=()=>{
@@ -78,14 +78,12 @@ const Home = () => {
                 </div>
             </div>
 
-            function Footer() {
-              const year = new Date().getFullYear();
-              return (
+
+
                 <footer>
-                  <p>Copyright ⓒ {year}</p>
+                  <p>Copyright ⓒ {new Date().getFullYear()}</p>
                 </footer>
-              );
-            }
+
 
             {/* </div> */}
         </div>
