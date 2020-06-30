@@ -4,6 +4,7 @@ import classes from "./Home.module.css";
 import hero from "../../assets/hero.png";
 import Doctor from "src\components\About Us\Doctor.jsx";
 import Patient from "src\components\About Us\Patient.jsx";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const routeChangeDoctor=()=>{
@@ -41,9 +42,11 @@ const Home = () => {
                                     With supporting text below as a natural
                                     lead-in to additional content.
                                 </p>
-                                <button className="btn btn-primary" onClick={routeChangeDoctor}>
+                                <Link to = Doctor>
+                                <button className="btn btn-primary">
                                     Learn More
                                 </button>
+                                </Link>
                             </div>
                         </div>
                         <div
@@ -55,9 +58,11 @@ const Home = () => {
                                     With supporting text below as a natural
                                     lead-in to additional content.
                                 </p>
-                                <button className="btn btn-primary" onClick={routeChangePatient}>
+                                <Link to = Patient>
+                                <button className="btn btn-primary" >
                                     Learn More
                                 </button>
+                                </Link>
                             </div>
                         </div>
                     </div>
