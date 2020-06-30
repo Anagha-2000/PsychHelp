@@ -2,9 +2,10 @@ import React from "react";
 import Navbar from "../../UI/Navbar/Navbar";
 import classes from "./Home.module.css";
 import hero from "../../assets/hero.png";
-import Doctor from ".\About Us\Doctor";
-import Patient from "src\components\About Us\Patient";
+import Doctor from "./About Us/Doctor";
+import Patient from "./About Us/Patient";
 import { Link } from "react-router-dom";
+import Footer from "../Footer";
 
 const Home = () => {
   const routeChangeDoctor=()=>{
@@ -42,8 +43,8 @@ const Home = () => {
                                     With supporting text below as a natural
                                     lead-in to additional content.
                                 </p>
-                                <Link to = Doctor>
-                                <button className="btn btn-primary">
+                                  <Link>
+                                 <button className="btn btn-primary">
                                     Learn More
                                 </button>
                                 </Link>
@@ -76,6 +77,8 @@ const Home = () => {
                     <img src={hero} alt="Hero" />
                 </div>
             </div>
+
+            <Footer/>
             {/* </div> */}
         </div>
     );
