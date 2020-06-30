@@ -6,6 +6,13 @@ import Doctor from "src\components\About Us\Doctor.jsx";
 import Patient from "src\components\About Us\Patient.jsx";
 
 const Home = () => {
+  const routeChangeDoctor=()=>{
+    let path = Doctor;
+  }
+
+  const routeChangePatient=()=>{
+    let path = Patient;
+  }
     return (
         <div className={classes.Home}>
             <Navbar />
@@ -34,7 +41,7 @@ const Home = () => {
                                     With supporting text below as a natural
                                     lead-in to additional content.
                                 </p>
-                                <button className="btn btn-primary" onClick={Doctor}>
+                                <button className="btn btn-primary" onClick={routeChangeDoctor}>
                                     Learn More
                                 </button>
                             </div>
@@ -48,7 +55,7 @@ const Home = () => {
                                     With supporting text below as a natural
                                     lead-in to additional content.
                                 </p>
-                                <button className="btn btn-primary" onClick={Patient}>
+                                <button className="btn btn-primary" onClick={routeChangePatient}>
                                     Learn More
                                 </button>
                             </div>
