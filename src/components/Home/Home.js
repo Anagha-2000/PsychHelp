@@ -5,7 +5,7 @@ import hero from "../../assets/hero.png";
 import Doctor from "../About Us/Doctor";
 import Patient from "../About Us/Patient";
 import { Link } from "react-router-dom";
-import Footer from "../Footer";
+import Footer from "./Footer";
 
 const Home = () => {
   const routeChangeDoctor=()=>{
