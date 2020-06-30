@@ -18,6 +18,7 @@ const Home = () => {
     return (
         <div className={classes.Home}>
             <Navbar />
+              <Footer />
             {/* <div className="container"> */}
             <div
                 className={["row d-flex align-items-center", classes.Home].join(
@@ -78,7 +79,7 @@ const Home = () => {
                 </div>
             </div>
 
-              <Footer/>
+
 
 
         </div>
