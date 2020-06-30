@@ -2,8 +2,8 @@ import React from "react";
 import Navbar from "../../UI/Navbar/Navbar";
 import classes from "./Home.module.css";
 import hero from "../../assets/hero.png";
-import Doctor from "src\components\About Us\Doctor.jsx";
-import Patient from "src\components\About Us\Patient.jsx";
+import Doctor from ".\About Us\Doctor";
+import Patient from "src\components\About Us\Patient";
 import { Link } from "react-router-dom";
 
 const Home = () => {
