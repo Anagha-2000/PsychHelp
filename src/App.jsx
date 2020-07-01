@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from './components/Home/Home';
 import Login from './components/Login/Login';
 import Signup from './components/Signup/Signup';
-import Footer from "./components/Footer";
+import Footer from './components/Footer';
 
 function App() {
     return (
@@ -14,7 +14,9 @@ function App() {
                   <Route path='/login' component={Login}></Route>
                   <Route path='/signup' component={Signup}></Route>
                 </Switch>
-
+                <footer>
+                  <p>Copyright ⓒ {year}</p>
+                </footer>
                    <Footer />
             </div>
         </Router>
