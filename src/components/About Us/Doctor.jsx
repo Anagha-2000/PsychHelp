@@ -6,7 +6,7 @@ function Doctor(){
     <div>
     <h1 ABOUT US/>
     <br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra lacus non nulla congue luctus.
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra lacus non nulla congue luctus.</p>
     </div>
   );
 };
