@@ -7,14 +7,7 @@ import Patient from "../About Us/Patient";
 import { Link } from "react-router-dom";
 
 
-const Home = () => {
-  const routeChangeDoctor=()=>{
-    let path = Doctor;
-  }
 
-  const routeChangePatient=()=>{
-    let path = Patient;
-  }
     return (
         <div className={classes.Home}>
             <Navbar />
@@ -54,7 +47,7 @@ const Home = () => {
                                     With supporting text below as a natural
                                     lead-in to additional content.
                                 </p>
-                                <Link to = Patient>
+                                <Link>
                                 <button className="btn btn-primary" >
                                     Learn More
                                 </button>
