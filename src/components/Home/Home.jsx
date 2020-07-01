@@ -5,7 +5,7 @@ import hero from "../../assets/hero.png";
 import Doctor from "../About Us/Doctor";
 import Patient from "../About Us/Patient";
 import { Link } from "react-router-dom";
-import Footer from "./Footer";
+
 
 const Home = () => {
   const routeChangeDoctor=()=>{
@@ -47,8 +47,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div
-                            className={["card col-lg-6", classes.cardAlignment].join(' ')}
-                        >
+            className={["card col-lg-6", classes.cardAlignment].join(' ')}>
                             <div className="card-body">
                                 <h5 className="card-title">For Patients</h5>
                                 <p className="card-text">
@@ -74,7 +73,7 @@ const Home = () => {
                 </div>
             </div>
 
-               <Footer />
+
 
 
         </div>
