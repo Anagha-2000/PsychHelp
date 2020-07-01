@@ -15,7 +15,7 @@ function App() {
                   <Route path='/signup' component={Signup}></Route>
                 </Switch>
                 <footer>
-                  <p>Copyright ⓒ {year}</p>
+                  <p>Copyright ⓒ {new Date().getFullYear()}</p>
                 </footer>
                    <Footer />
             </div>
