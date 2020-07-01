@@ -6,7 +6,7 @@ import Doctor from "../About Us/Doctor";
 import Patient from "../About Us/Patient";
 import { Link } from "react-router-dom";
 
-
+const Home = () => {
 
     return (
         <div className={classes.Home}>
@@ -72,5 +72,5 @@ import { Link } from "react-router-dom";
         </div>
     );
 
-
+};
 export default Home;
