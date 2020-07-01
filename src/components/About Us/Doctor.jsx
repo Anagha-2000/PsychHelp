@@ -10,6 +10,6 @@ function Doctor(){
     </p>
     </div>
   );
-}
+};
 
 export default Doctor;
