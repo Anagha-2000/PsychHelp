@@ -18,19 +18,14 @@ const Home = () => {
     return (
         <div className={classes.Home}>
             <Navbar />
-              <Footer />
+
             {/* <div className="container"> */}
             <div
-                className={["row d-flex align-items-center", classes.Home].join(
-                    " "
-                )}
-            >
+                className={["row d-flex align-items-center", classes.Home].join(" ")}>
                 <div
                     className={[
                         "col-sm-6 col-md-6 col-sm-12 col-xs-12 d-flex flex-column",
-                        classes.cardColumn,
-                    ].join(" ")}
-                >
+                        classes.cardColumn, ].join(" ")} >
                     <div>
                         <h2 className={classes.title}>Matching patient <br/> with great doctors</h2><br/>
                     </div>
@@ -79,7 +74,7 @@ const Home = () => {
                 </div>
             </div>
 
-
+               <Footer />
 
 
         </div>
