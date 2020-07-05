@@ -35,11 +35,11 @@ const Home = () => {
                                     With supporting text below as a natural
                                     lead-in to additional content.
                                 </p>
-                                  <Link to ="./About Us/Doctor"">
+                                  <NavLink activeClassName="active" to ="./About Us/Doctor">
                                  <button className="btn btn-primary">
                                     Learn More
                                 </button>
-                                </Link>
+                                </NavLink>
                             </div>
                         </div>
                         <div
@@ -50,11 +50,12 @@ const Home = () => {
                                     With supporting text below as a natural
                                     lead-in to additional content.
                                 </p>
-                                <Link to="./About Us/Patient">
+
+                                <NavLink activeClassName="active" to="./About Us/Patient">
                                 <button className="btn btn-primary" >
                                     Learn More
                                 </button>
-                                </Link>
+                                </NavLink>
                             </div>
                         </div>
                     </div>
