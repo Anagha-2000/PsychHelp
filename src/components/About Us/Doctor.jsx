@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../../UI/Navbar/Navbar";
 
-function Doctor(){
+const Doctor = () =>{
   return (
   <div>
     <Navbar />
