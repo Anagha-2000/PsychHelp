@@ -2,8 +2,8 @@ import React from "react";
 import Navbar from "../../UI/Navbar/Navbar";
 import classes from "./Home.module.css";
 import hero from "../../assets/hero.png";
-import Doctor from "./About Us/Doctor";
-import Patient from "./About Us/Patient";
+import Doctor from "../About Us/Doctor";
+import Patient from "../About Us/Patient";
 import { Link } from "react-router-dom";
 import { NavLink } from 'react-router-dom';
 
@@ -35,7 +35,7 @@ const Home = () => {
                                     With supporting text below as a natural
                                     lead-in to additional content.
                                 </p>
-                                  <NavLink activeClassName="active" to ="./About Us/Doctor">
+                                  <NavLink activeClassName="active" to ="../About Us/Doctor">
                                  <button className="btn btn-primary">
                                     Learn More
                                 </button>
@@ -51,7 +51,7 @@ const Home = () => {
                                     lead-in to additional content.
                                 </p>
 
-                                <NavLink activeClassName="active" to="./About Us/Patient">
+                                <NavLink activeClassName="active" to="../About Us/Patient">
                                 <button className="btn btn-primary" >
                                     Learn More
                                 </button>
