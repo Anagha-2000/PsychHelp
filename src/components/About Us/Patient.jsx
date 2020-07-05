@@ -10,6 +10,6 @@ function Patient(){
 
     </div>
   );
-};
+}
 
 export default Patient;
