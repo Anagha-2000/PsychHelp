@@ -45,6 +45,9 @@ Tools used will be:
 # SITE MAP :
 ![alt SITE MAP](https://github.com/StudentCode-in/PsychHelp/blob/master/SITE%20MAP.png)
 
+# Code of Conduct :
+* [Code of Conduct](https://github.com/Anagha-2000/PsychHelp/blob/master/CODE_OF_CONDUCT.md)
+
 # LICENSE :
 `License`
 
