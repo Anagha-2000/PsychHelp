@@ -8,6 +8,8 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
 
+
+
     return (
         <div className={classes.Home}>
             <Navbar />
@@ -32,7 +34,7 @@ const Home = () => {
                                     With supporting text below as a natural
                                     lead-in to additional content.
                                 </p>
-                                  <Link>
+                                  <Link to ="/About Us/Doctor">
                                  <button className="btn btn-primary">
                                     Learn More
                                 </button>
@@ -47,7 +49,7 @@ const Home = () => {
                                     With supporting text below as a natural
                                     lead-in to additional content.
                                 </p>
-                                <Link>
+                                <Link to="/About Us/Patient">
                                 <button className="btn btn-primary" >
                                     Learn More
                                 </button>
