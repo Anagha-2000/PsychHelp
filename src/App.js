@@ -15,8 +15,8 @@ function App() {
                   <Route path='/' exact component={Home}></Route>
                   <Route path='/login' component={Login}></Route>
                   <Route path='/signup' component={Signup}></Route>
-                  <Route path='/Doctor' component={Doctor}></Route>
-                  <Route path='/Patient' component={Patient}></Route>
+                  <Route path='/doctor' component={Doctor}></Route>
+                  <Route path='/patient' component={Patient}></Route>
                 </Switch>
                    <Footer />
             </div>
