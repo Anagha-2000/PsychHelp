@@ -4,8 +4,9 @@ import Navbar from "../../UI/Navbar/Navbar";
 const Patient = () =>{
   return (
 
+
     <div>
-      <Navbar />
+    <Navbar />
     <h1> ABOUT US</h1>
 
     </div>
