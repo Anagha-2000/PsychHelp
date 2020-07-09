@@ -4,7 +4,7 @@ const Doctor = () =>{
   return (
   <div>
   <Navbar />
-    <h1> ABOUT US</h1>
+    <h2> About Us</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque,
     sapien in pretium molestie, mauris odio luctus urna, quis feugiat dolor enim vitae dolor.
     Quisque in elit urna. Nulla placerat dignissim quam quis commodo. Etiam pulvinar,
