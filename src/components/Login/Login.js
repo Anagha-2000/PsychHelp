@@ -6,9 +6,16 @@ const Login = () => {
 
         <div>
             <Navbar />
-            <h2>
-                Login
-            </h2>
+
+            <form>
+            <label>
+    Name:
+    <input type="text" name="name" />
+  </label>
+  <input type="submit" value="Submit" />
+</form>
+            </form>
+
         </div>
     );
 }
