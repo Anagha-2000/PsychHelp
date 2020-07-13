@@ -6,7 +6,7 @@ import Signup from './components/Signup/Signup';
 import Footer from './components/Footer';
 import Doctor from "./components/AboutUs/Doctor";
 import Patient from "./components/AboutUs/Patient";
-import FAQs from ",/components/FAQs";
+import FAQs from "./components/FAQs";
 
 function App() {
     return (
