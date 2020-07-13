@@ -1,12 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from './components/Home/Home';
+import FAQs from "./components/FAQs";
 import Login from './components/Login/Login';
 import Signup from './components/Signup/Signup';
 import Footer from './components/Footer';
 import Doctor from "./components/AboutUs/Doctor";
 import Patient from "./components/AboutUs/Patient";
-import FAQs from "./components/FAQs";
+
 
 function App() {
     return (
