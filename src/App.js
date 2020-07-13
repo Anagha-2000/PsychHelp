@@ -18,6 +18,9 @@ function App() {
                   <Route path='/doctor' component={Doctor}></Route>
                   <Route path='/patient' component={Patient}></Route>
                 </Switch>
+
+                <h2 id=page-break/>
+                <h1> FAQs </h1>
                    <Footer />
             </div>
         </Router>

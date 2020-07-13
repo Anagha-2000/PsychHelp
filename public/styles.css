@@ -2,6 +2,12 @@
     background-color: #fafafa;
   }
 
+#page-break{
+  border-bottom: 1px solid #ececec;
+    padding-top: 44px;
+    margin-bottom: 40px;
+}
+
 h2{
   padding-top: 10px;
   font-family: 'Montserrat', sans-serif;
