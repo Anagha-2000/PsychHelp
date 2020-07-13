@@ -4,7 +4,7 @@ import Home from './components/Home/Home';
 import FAQs from "./components/FAQs";
 import Login from './components/Login/Login';
 import Signup from './components/Signup/Signup';
-import Footer from './components/Footer';
+
 import Doctor from "./components/AboutUs/Doctor";
 import Patient from "./components/AboutUs/Patient";
 
@@ -23,7 +23,7 @@ function App() {
 
                 <h2 id="page-break"></h2>
                 <FAQs />
-                   <Footer />
+
             </div>
         </Router>
     );
