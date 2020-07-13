@@ -6,6 +6,7 @@ import Signup from './components/Signup/Signup';
 import Footer from './components/Footer';
 import Doctor from "./components/AboutUs/Doctor";
 import Patient from "./components/AboutUs/Patient";
+import FAQs from ",/components/FAQs";
 
 function App() {
     return (
@@ -19,8 +20,8 @@ function App() {
                   <Route path='/patient' component={Patient}></Route>
                 </Switch>
 
-                <h2 id="page-break">....</h2>
-                <h1> FAQs </h1>
+                <h2 id="page-break"></h2>
+                <FAQs />
                    <Footer />
             </div>
         </Router>
