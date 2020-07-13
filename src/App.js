@@ -19,7 +19,7 @@ function App() {
                   <Route path='/patient' component={Patient}></Route>
                 </Switch>
 
-                <h2 id=page-break/>
+                <h2 id="page-break">....</h2>
                 <h1> FAQs </h1>
                    <Footer />
             </div>
