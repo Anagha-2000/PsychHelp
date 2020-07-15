@@ -2,7 +2,7 @@ import React from "react";
 import classes from './Navbar.module.css';
 import { Link } from "react-router-dom";
 
-const Login-Navbar = () => {
+const LoginNavbar = () => {
     const style = {
         color: "white",
     };
@@ -20,4 +20,4 @@ const Login-Navbar = () => {
     );
 };
 
-export default Login-Navbar;
+export default LoginNavbar;

@@ -6,13 +6,13 @@ import CardDeck from 'react-bootstrap/CardDeck';
 import Footer from '../Footer';
 import classes from './Navbar.module.css';
 import { Link } from "react-router-dom";
-import Login-Navbar from "./Login-Navbar";
+import LoginNavbar from "./Login-Navbar";
 const Login = () => {
 
     return (
 
         <div>
-            <Login-Navbar />
+            <LoginNavbar />
       <div class = "login-select">
             <CardDeck>
     <Card style={{ width: '18rem' }}>
