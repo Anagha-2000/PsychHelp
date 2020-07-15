@@ -7,7 +7,7 @@ import Signup from './components/Signup/Signup';
 
 import Doctor from "./components/AboutUs/Doctor";
 import Patient from "./components/AboutUs/Patient";
-
+import Footer from './Footer';
 
 function App() {
     return (
