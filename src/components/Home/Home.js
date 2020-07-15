@@ -34,7 +34,7 @@ const Home = () => {
                                     lead-in to additional content.
                                 </p>
 
-                                <Link to="/doctor">
+                                <Link to="/LoginDoctor">
                                 <button className="btn btn-primary">
                                    Learn More
                                </button>
@@ -51,7 +51,7 @@ const Home = () => {
                                     lead-in to additional content.
                                 </p>
 
-                                <Link to="/patient">
+                                <Link to="/LoginPatient">
                                 <button className="btn btn-primary" >
                                     Learn More
                                 </button>
@@ -73,7 +73,7 @@ const Home = () => {
 
 
             <FAQs />
-            
+
 
 
         </div>
