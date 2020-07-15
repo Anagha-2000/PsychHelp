@@ -25,6 +25,10 @@ h2{
   font-family: 'Montserrat', sans-serif;
 }
 
+.login-select{
+  padding: 100px;
+}
+
 .para{
   text-align: center;
   padding:10px 50px 10px 50px;
