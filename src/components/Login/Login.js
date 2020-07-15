@@ -22,7 +22,7 @@ const Login = () => {
         <Card.Text>
           <h3>Doctor</h3>
         </Card.Text>
-          <Link to="/patient">
+          <Link to="/Login-Doctor">
         <Button variant="primary" type="submit">
           Login
           </Button>
@@ -40,7 +40,7 @@ const Login = () => {
         <Card.Text>
           <h3>Patient</h3>
         </Card.Text>
-            <Link to="/patient">
+            <Link to="/Login-Patient">
         <Button variant="primary" type="submit">
           Login
           </Button>
