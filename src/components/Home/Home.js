@@ -4,7 +4,7 @@ import classes from "./Home.module.css";
 import hero from "../../assets/hero.png";
 import { Link } from "react-router-dom";
 import { NavLink } from 'react-router-dom';
-
+import FAQs from "./FAQs";
 const Home = () => {
 
 
@@ -71,7 +71,8 @@ const Home = () => {
                 </div>
             </div>
 
-
+            <h2 id="page-break"></h2>
+            <FAQs />
 
 
         </div>

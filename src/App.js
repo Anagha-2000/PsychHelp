@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from './components/Home/Home';
-import FAQs from "./components/FAQs";
+
 import Login from './components/Login/Login';
 import Signup from './components/Signup/Signup';
 
@@ -21,8 +21,7 @@ function App() {
                   <Route path='/patient' component={Patient}></Route>
                 </Switch>
 
-                <h2 id="page-break"></h2>
-                <FAQs />
+                <Footer />
 
             </div>
         </Router>
