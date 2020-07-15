@@ -5,11 +5,16 @@
 #page-break{
   border-bottom: 1px solid #ececec;
     padding-top: 44px;
-    margin-bottom: 40px;
+
 }
 
 #FAQs{
-  background-color: #e8f1f5;
+  background-color: #005691;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#heading{
+  font-weight: bold;
 }
 h2{
   padding-top: 10px;
@@ -20,6 +25,12 @@ p{
   text-align: center;
   padding:10px 50px 10px 50px;
   font-family: 'Montserrat', sans-serif;
+}
+
+
+.lists{
+  padding: 5px;
+  font-size: 5rem;
 }
   .navbar {
    height: 100px;
