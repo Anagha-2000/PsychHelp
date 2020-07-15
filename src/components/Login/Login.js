@@ -12,7 +12,7 @@ const Login = () => {
             <Navbar />
       <div class = "login-select">
             <CardDeck>
-    <Card>
+    <Card style={{ width: '18rem' }}>
 
       <Card.Body>
         <Card.Title>Login for...</Card.Title>
@@ -27,7 +27,7 @@ const Login = () => {
         <small className="text-muted">Are you here to help?</small>
       </Card.Footer>
     </Card>
-    <Card>
+    <Card style={{ width: '18rem' }}>
 
 
       <Card.Body>
