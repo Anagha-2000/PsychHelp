@@ -75,7 +75,7 @@ const Home = () => {
             <h2 id="page-break"></h2>
             <FAQs />
 
-  
+
         </div>
     );
 
