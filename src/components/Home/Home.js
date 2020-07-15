@@ -72,7 +72,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <h2 id="page-break"></h2>
+          /* <h2 id="page-break"></h2> */
             <FAQs />
 
 
