@@ -19,6 +19,9 @@ const Login = () => {
         <Card.Text>
           <h3>Doctor</h3>
         </Card.Text>
+        <Button variant="primary" type="submit">
+          Login
+          </Button>
       </Card.Body>
       <Card.Footer>
         <small className="text-muted">Are you here to help?</small>
@@ -26,12 +29,15 @@ const Login = () => {
     </Card>
     <Card>
 
-    
+
       <Card.Body>
         <Card.Title>Login for...</Card.Title>
         <Card.Text>
           <h3>Patient</h3>
         </Card.Text>
+        <Button variant="primary" type="submit">
+          Login
+          </Button>
       </Card.Body>
       <Card.Footer>
         <small className="text-muted">Are you here to seek help?</small>
