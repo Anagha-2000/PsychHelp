@@ -32,9 +32,9 @@ h2{
 
 
 .lists{
-  padding: 5px;
+  padding-top: 50px;
   font-size: 50 px;
-  
+  padding-left: 30px;
 }
   .navbar {
    height: 100px;
