@@ -2,7 +2,7 @@ import React from "react";
 import classes from '../../UI/Navbar/Navbar.module.css';
 import { Link } from "react-router-dom";
 
-const LoginDDoctor = () => {
+const LoginDoctor = () => {
     const style = {
         color: "white",
     };
