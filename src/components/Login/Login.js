@@ -4,12 +4,15 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
 import Footer from '../Footer';
+import classes from './Navbar.module.css';
+import { Link } from "react-router-dom";
+import Login-Navbar from "./Login-Navbar";
 const Login = () => {
 
     return (
 
         <div>
-            <Navbar />
+            <Login-Navbar />
       <div class = "login-select">
             <CardDeck>
     <Card style={{ width: '18rem' }}>
@@ -27,7 +30,7 @@ const Login = () => {
         <small className="text-muted">Are you here to help?</small>
       </Card.Footer>
     </Card>
-    <Card style={{ width: '10rem' }}>
+    <Card>
 
 
       <Card.Body>
