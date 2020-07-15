@@ -5,7 +5,7 @@ function FAQs(){
     <div>
 <div id="FAQs">
     <h1 id="heading"><b> Frequently Asked Questions </b> </h1>
-    <br>
+    <br/>
     <p class = "lists"><img src="https://img.icons8.com/flat_round/30/000000/arrow-right.png"/>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     <p class = "lists"><img src="https://img.icons8.com/flat_round/30/000000/arrow-right.png"/>          Sed iaculis justo ut nibh vehicula, at mattis orci interdum.</p>
     <p class = "lists"><img src="https://img.icons8.com/flat_round/30/000000/arrow-right.png"/>          Nulla interdum nulla a felis iaculis malesuada.</p>
