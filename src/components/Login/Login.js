@@ -13,7 +13,7 @@ const Login = () => {
       <div class = "login-select">
             <CardDeck>
     <Card>
-      <Card.Img variant="top" src="holder.js/100px160" />
+
       <Card.Body>
         <Card.Title>Login for...</Card.Title>
         <Card.Text>
@@ -26,7 +26,7 @@ const Login = () => {
     </Card>
     <Card>
 
-      <Card.Img variant="top" src="holder.js/100px160" />
+    
       <Card.Body>
         <Card.Title>Login for...</Card.Title>
         <Card.Text>
