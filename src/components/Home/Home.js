@@ -5,6 +5,7 @@ import hero from "../../assets/hero.png";
 import { Link } from "react-router-dom";
 import { NavLink } from 'react-router-dom';
 import FAQs from "../FAQs";
+import Footer from '../Footer';
 const Home = () => {
 
 
@@ -74,7 +75,7 @@ const Home = () => {
             <h2 id="page-break"></h2>
             <FAQs />
 
-
+    <Footer />
         </div>
     );
 

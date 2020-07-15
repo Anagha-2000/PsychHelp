@@ -7,7 +7,7 @@ import Signup from './components/Signup/Signup';
 
 import Doctor from "./components/AboutUs/Doctor";
 import Patient from "./components/AboutUs/Patient";
-import Footer from './components/Footer';
+
 
 function App() {
     return (
@@ -21,7 +21,7 @@ function App() {
                   <Route path='/patient' component={Patient}></Route>
                 </Switch>
 
-                <Footer />
+
 
             </div>
         </Router>
