@@ -76,6 +76,11 @@ const Home = () => {
             <FAQs />
             <Footer />
 
+            <footer>
+            Copyright ⓒ {new Date().getFullYear()}
+            </footer>
+            
+
         </div>
     );
 
