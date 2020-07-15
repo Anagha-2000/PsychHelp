@@ -27,7 +27,7 @@ const Login = () => {
         <small className="text-muted">Are you here to help?</small>
       </Card.Footer>
     </Card>
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '10rem' }}>
 
 
       <Card.Body>
