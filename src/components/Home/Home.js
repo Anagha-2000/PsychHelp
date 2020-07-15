@@ -5,7 +5,6 @@ import hero from "../../assets/hero.png";
 import { Link } from "react-router-dom";
 import { NavLink } from 'react-router-dom';
 import FAQs from "../FAQs";
-import Footer from '../Footer';
 const Home = () => {
 
 
@@ -74,12 +73,8 @@ const Home = () => {
 
 
             <FAQs />
-            <Footer />
-
-            <footer>
-            Copyright ⓒ {new Date().getFullYear()}
-            </footer>
             
+
 
         </div>
     );
