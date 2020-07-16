@@ -25,7 +25,7 @@ const LoginPatient = () => {
         </nav>
         <div class="LoginPatient">
     <CardDeck>
-        <Card style={{width:"80%", height:"60%"}}>
+        <Card style={{width:"150px", height:"150px"}}>
 
           <Card.Body>
           <Form>
