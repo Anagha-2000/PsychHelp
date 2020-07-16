@@ -9,6 +9,7 @@ const LoginDoctor = () => {
         color: "white",
     };
     return (
+      <div>
         <nav className={classes.Navbar}>
             <Link style={style} to="/">
                 <h3 className={classes.title}>PsychHelp</h3>
@@ -37,6 +38,7 @@ const LoginDoctor = () => {
     Submit
   </Button>
 </Form>
+</div>
     );
 };
 

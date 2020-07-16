@@ -1,8 +1,6 @@
 import React from "react";
 import classes from '../../UI/Navbar/Navbar.module.css';
 import { Link } from "react-router-dom";
-import FormGroup from 'react-bootstrap/FormGroup';
-import FormControl from 'react-bootstrap/FormControl';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
@@ -11,6 +9,7 @@ const LoginPatient = () => {
         color: "white",
     };
     return (
+      <div>
         <nav className={classes.Navbar}>
             <Link style={style} to="/">
                 <h3 className={classes.title}>PsychHelp</h3>
@@ -21,7 +20,7 @@ const LoginPatient = () => {
                 </Link>
             </ul>
         </nav>
-
+    <Form>
         <Form.Group controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
           <Form.Control type="email" placeholder="Enter email" />
@@ -38,6 +37,7 @@ const LoginPatient = () => {
           Submit
         </Button>
       </Form>
+      </div>
     );
 };
 
