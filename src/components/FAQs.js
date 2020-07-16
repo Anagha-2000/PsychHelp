@@ -17,13 +17,7 @@ function FAQs(){
     <p class = "lists"><img src="https://img.icons8.com/flat_round/30/000000/arrow-right.png"/>          Nulla interdum nulla a felis iaculis malesuada.</p>
     <p class = "lists"><img src="https://img.icons8.com/flat_round/30/000000/arrow-right.png"/>          Sed quis justo sit amet dolor cursus varius ut non metus.</p>
 
-    <Card style={{ width: '18rem' }}>
-      <ListGroup variant="flush">
-        <ListGroup.Item>Cras justo odio</ListGroup.Item>
-        <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-        <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
-      </ListGroup>
-    </Card>
+    
 
 </div>
 
