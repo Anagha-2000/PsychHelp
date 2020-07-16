@@ -7,7 +7,7 @@ const Patient = () =>{
 
     <div>
     <Navbar />
-    <h2> About Us</h2>
+    <h2 class="para"> About Us</h2>
     <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque,
     sapien in pretium molestie, mauris odio luctus urna, quis feugiat dolor enim vitae dolor.
     Quisque in elit urna. Nulla placerat dignissim quam quis commodo. Etiam pulvinar,
