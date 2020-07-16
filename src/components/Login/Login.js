@@ -14,7 +14,7 @@ const Login = () => {
         <div>
             <LoginNavbar />
       <div class = "login-select">
-            <CardDeck>
+            <CardDeck style={{width:"550px", height:"150px"}}>
     <Card>
 
       <Card.Body>
