@@ -22,6 +22,7 @@ const LoginDoctor = () => {
                 </Link>
             </ul>
         </nav>
+        <div class="LoginDoctor">
     <CardDeck>
         <Card>
 
@@ -48,7 +49,7 @@ const LoginDoctor = () => {
         </Card>
 
 </CardDeck>
-
+</div>
 </div>
     );
 };

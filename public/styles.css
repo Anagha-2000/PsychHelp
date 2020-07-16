@@ -25,6 +25,9 @@ h2{
   font-family: 'Montserrat', sans-serif;
 }
 
+.LoginDoctor{
+  align-items: center;
+}
 .login-select{
   padding: 100px;
 }
