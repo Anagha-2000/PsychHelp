@@ -3,6 +3,8 @@ import classes from '../../UI/Navbar/Navbar.module.css';
 import { Link } from "react-router-dom";
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import CardDeck from 'react-bootstrap/CardDeck';
 
 const LoginDoctor = () => {
     const style = {
@@ -20,7 +22,7 @@ const LoginDoctor = () => {
                 </Link>
             </ul>
         </nav>
-
+    <CardDeck>
         <Card>
 
           <Card.Body>
@@ -42,10 +44,10 @@ const LoginDoctor = () => {
     </Button>
   </Form>
           </Card.Body>
-          
+
         </Card>
 
-
+</CardDeck>
 
 </div>
     );
