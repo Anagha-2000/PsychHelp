@@ -11,7 +11,7 @@ const Login = () => {
 
     return (
 
-        <div>
+        <div class = "transparenttextures">
             <LoginNavbar />
       <div class = "login-select">
             <CardDeck>
