@@ -3,6 +3,8 @@ import classes from '../../UI/Navbar/Navbar.module.css';
 import { Link } from "react-router-dom";
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import CardDeck from 'react-bootstrap/CardDeck';
 
 const LoginPatient = () => {
     const style = {
