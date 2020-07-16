@@ -26,10 +26,12 @@ h2{
 }
 
 .LoginDoctor{
-  padding: 400px;
+  padding-top: 300px;
+  padding-left: 800px;
 }
 .LoginPatient{
-  padding: 400px;
+  padding-top: 300px;
+  padding-left: 800px;
 }
 
 .login-select{
