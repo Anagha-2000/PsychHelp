@@ -12,6 +12,7 @@ const LoginPatient = () => {
     };
     return (
       <div>
+
         <nav className={classes.Navbar}>
             <Link style={style} to="/">
                 <h3 className={classes.title}>PsychHelp</h3>

@@ -26,8 +26,12 @@ h2{
 }
 
 .LoginDoctor{
-  align-items: center;
+  padding: 200px;
 }
+.LoginPatient{
+  padding: 200px;
+}
+
 .login-select{
   padding: 100px;
 }
