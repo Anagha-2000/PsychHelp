@@ -24,7 +24,7 @@ const LoginPatient = () => {
             </ul>
         </nav>
         <div class="LoginPatient">
-    <CardDeck style={{width:"500px", height:"100px"}}>
+    <CardDeck style={{width:"550px", height:"150px"}}>
         <Card >
 
           <Card.Body>
