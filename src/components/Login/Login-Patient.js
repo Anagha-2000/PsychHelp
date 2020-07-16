@@ -1,7 +1,8 @@
 import React from "react";
 import classes from '../../UI/Navbar/Navbar.module.css';
 import { Link } from "react-router-dom";
-import Form from 'react-bootstrap/Form';
+import FormGroup from 'react-bootstrap/FormGroup';
+import FormControl from 'react-bootstrap/FormControl';
 import Button from 'react-bootstrap/Button';
 
 const LoginPatient = () => {
