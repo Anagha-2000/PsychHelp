@@ -12,6 +12,7 @@
   padding-bottom: 300px;
   padding-top: 10px;
   background-color: #e8f1f5;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -75,7 +76,7 @@ h2{
   body {
     background: #eee;
     background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
-    padding: 0 16px;
+    /*padding: 0 16px;*/
   }
 
   footer {
