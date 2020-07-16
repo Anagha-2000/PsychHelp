@@ -72,11 +72,11 @@ h2{
     border-radius: 7px;
   }
 
-.transparenttextures{
-  background-color: #1a248f;
-background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
-
-}
+  body {
+    background: #eee;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    padding: 0 16px;
+  }
 
   footer {
 
