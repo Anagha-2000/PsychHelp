@@ -21,7 +21,8 @@ const Signup = () => {
       <h3>Doctor</h3>
     </Card.Text>
       <Link to="/SignupDoctor">
-      <i class="fab fa-google">Sign Up with Google</i>
+      <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-google"></i>Sign Up with Google</button>
+
     <Button variant="primary" type="submit">
       Sign Up with Google
       </Button>
