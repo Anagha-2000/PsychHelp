@@ -1,7 +1,7 @@
 .Navbar {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    /*align-items: center;*/
     min-height: 10vh;
     background: #004a7c;
     color: white;
