@@ -13,7 +13,7 @@ const SignupNavbar = () => {
             </Link>
 
             <ul className={classes.navLinks}>
-                <Link style={style} to="/">
+                <Link style={style} to="/Blog">
                     <li className={classes.item}></li>
                 </Link>
               </ul>

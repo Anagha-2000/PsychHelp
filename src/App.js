@@ -14,6 +14,7 @@ import LoginPatient from "./components/Login/Login-Patient";
 import SignupDoctor from "./components/Signup/Signup-Doctor";
 import SignupPatient from "./components/Signup/Signup-Patient";
 
+import Blog from "./components/Blog.js"
 
 function App() {
     return (
@@ -29,6 +30,7 @@ function App() {
                   <Route path='/LoginPatient' component={LoginPatient}></Route>
                   <Route path='/SignupDoctor' component={SignupDoctor}></Route>
                   <Route path='/SignupPatient' component={SignupPatient}></Route>
+                  <Route path='/Blog' component={Blog}></Route>
 
 
                 </Switch>
