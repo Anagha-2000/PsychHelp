@@ -2,6 +2,7 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
+import GooglePlusButton from 'react-bootstrap/GooglePlusButton';
 import Footer from '../Footer';
 import classes from '../../UI/Navbar/Navbar.module.css';
 import { Link } from "react-router-dom";
