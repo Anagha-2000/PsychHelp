@@ -7,7 +7,7 @@ import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
 import SignupNavbar from "./SignupNavbar";
 
-const SignupDoctor = () => {
+const SignupPatient = () => {
     const style = {
         color: "white",
     };
