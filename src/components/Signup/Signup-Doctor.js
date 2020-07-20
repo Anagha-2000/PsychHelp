@@ -5,16 +5,16 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
-import LoginNavbar from "./Login-Navbar";
+import SignupNavbar from "./SignupNavbar";
 
-const LoginDoctor = () => {
+const SignupDoctor = () => {
     const style = {
         color: "white",
     };
     return (
       <div>
-        <LoginNavbar />
-        <div class="LoginDoctor">
+        <SignupNavbar />
+        <div class="SignupDoctor">
     <CardDeck style={{width:"550px", height:"150px"}}>
         <Card>
 
@@ -46,4 +46,4 @@ const LoginDoctor = () => {
     );
 };
 
-export default LoginDoctor;
+export default SignupDoctor;

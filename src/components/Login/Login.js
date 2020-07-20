@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from "../../UI/Navbar/Navbar";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';

@@ -5,6 +5,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
+import LoginNavbar from "./Login-Navbar";
 
 const LoginPatient = () => {
     const style = {
@@ -13,16 +14,8 @@ const LoginPatient = () => {
     return (
       <div>
 
-        <nav className={classes.Navbar}>
-            <Link style={style} to="/">
-                <h3 className={classes.title}>PsychHelp</h3>
-            </Link>
-            <ul className={classes.navLinks}>
-                <Link style={style} to="/signup">
-                    <li className={classes.item}>SignUp</li>
-                </Link>
-            </ul>
-        </nav>
+        <LoginNavbar />
+        
         <div class="LoginPatient">
     <CardDeck style={{width:"550px", height:"150px"}}>
         <Card >
