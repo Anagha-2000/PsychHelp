@@ -11,6 +11,12 @@ const SignupNavbar = () => {
             <Link style={style} to="/">
                 <h3 className={classes.title}>PsychHelp</h3>
             </Link>
+
+            <ul className={classes.navLinks}>
+                <Link style={style} to="/">
+                    <li className={classes.item}></li>
+                </Link>
+              </ul>
         </nav>
     );
 };
