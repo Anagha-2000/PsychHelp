@@ -24,7 +24,7 @@ const Blog = () => {
           </div>
           <div class="row">
             <div class="card m-4 blog" style="width: 18rem;">
-              <!--<h5 class="card-header">Featured</h5>-->
+              /*<h5 class="card-header">Featured</h5>*/
               <img src="https://www.spring.org.uk/images/woman_glasses-1-1.jpg" class="card-img-top" alt="...">
 
               <div class="card-body">
