@@ -1,14 +1,15 @@
 .Navbar {
     display: flex;
     justify-content: space-around;
-    /*align-items: center;*/
+    align-items: center;
     min-height: 10vh;
     background: #004a7c;
     color: white;
 }
 
 .title {
-    margin-left: 25%;
+  /*  margin-left: 25%;*/
+    margin-left:auto;
 }
 
 .navLinks {
