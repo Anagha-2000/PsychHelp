@@ -36,7 +36,20 @@ h2{
   padding-left: 600px;
 }
 
+.SignupDoctor{
+  padding-top: 200px;
+  padding-left: 600px;
+}
+.SignupPatient{
+  padding-top: 200px;
+  padding-left: 600px;
+}
+
 .login-select{
+  padding: 100px;
+}
+
+.signup-select{
   padding: 100px;
 }
 

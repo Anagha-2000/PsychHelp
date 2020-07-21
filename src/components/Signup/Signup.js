@@ -11,7 +11,7 @@ const Signup = () => {
     return (
         <div>
         <SignupNavbar />
-  <div class = "login-select">
+  <div class = "signup-select">
         <CardDeck>
 <Card>
 
@@ -21,7 +21,7 @@ const Signup = () => {
       <h3>Doctor</h3>
     </Card.Text>
       <Link to="/SignupDoctor">
-    
+
     <Button variant="primary" type="submit">
       Sign Up with Google
       </Button>
