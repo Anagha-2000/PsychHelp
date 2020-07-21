@@ -15,7 +15,7 @@ const SignupPatient = () => {
       <div>
         <SignupNavbar />
         <div class="SignupDoctor">
-    <CardDeck style={{width:"550px", height:"150px"}}>
+    <CardDeck style={{width:"450px", height:"150px"}}>
         <Card>
 
           <Card.Body>
