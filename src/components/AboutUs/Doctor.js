@@ -4,28 +4,21 @@ const Doctor = () =>{
   return (
   <div>
   <Navbar />
+    <div class="row p-3">
+    <div class="col-md-12 text-center">
+      <img class="doclogo" src="https://image.freepik.com/free-vector/doctor-character-background_1270-84.jpg" />
+    </div>
+    <div class="col-md-12">
     <h2> About Us</h2>
-    <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque,
-    sapien in pretium molestie, mauris odio luctus urna, quis feugiat dolor enim vitae dolor.
-    Quisque in elit urna. Nulla placerat dignissim quam quis commodo. Etiam pulvinar,
-    eros id euismod vulputate, libero ipsum tristique velit, quis ullamcorper massa
-    quam vel turpis. Morbi luctus dictum erat, finibus ultricies leo.
-    Aliquam at dolor in lacus finibus iaculis id id leo. In mollis at mi et auctor.
-    Curabitur tincidunt non diam a imperdiet. Nullam libero lectus, efficitur
-    quis suscipit sed, suscipit at diam. Donec cursus eu mauris vitae rutrum.
-    Aenean a elit ac metus sollicitudin interdum. Quisque pulvinar ante eleifend,
-    tincidunt nisl sit amet, tristique lectus. Aliquam eu luctus mauris.
-     Fusce vitae eleifend nibh.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque,
-     sapien in pretium molestie, mauris odio luctus urna, quis feugiat dolor enim vitae dolor.
-     Quisque in elit urna. Nulla placerat dignissim quam quis commodo. Etiam pulvinar,
-     eros id euismod vulputate, libero ipsum tristique velit, quis ullamcorper massa
-     quam vel turpis. Morbi luctus dictum erat, finibus ultricies leo.
-     Aliquam at dolor in lacus finibus iaculis id id leo. In mollis at mi et auctor.
-     Curabitur tincidunt non diam a imperdiet. Nullam libero lectus, efficitur
-     quis suscipit sed, suscipit at diam. Donec cursus eu mauris vitae rutrum.
-     Aenean a elit ac metus sollicitudin interdum. Quisque pulvinar ante eleifend,
-     tincidunt nisl sit amet, tristique lectus. Aliquam eu luctus mauris.
-      Fusce vitae eleifend nibh. </p>
+    <p class="para container">
+    <h4>What we do</h4>
+We are on a mission to connect patients with doctors and make it accessible for a billion Indians. 
+The best part - we are making it happen because of you!
+<p>We need your help to succeed in our mission. There are various people out there who are emotionally disturbed. We need your help to cure their stress, physical or emotional. We provide a platform to connect them with great doctors like you.</p>
+    </p>
+    
+    </div>
+    </div>
 </div>
   );
 }
