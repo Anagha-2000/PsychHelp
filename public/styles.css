@@ -55,8 +55,10 @@ h2{
 
 .para{
   text-align: center;
-  padding:10px 50px 10px 50px;
+  padding:20px 50px 20px 50px;
   font-family: 'Montserrat', sans-serif;
+  font-size:20px;
+  border: 2px solid lightblue;
 }
 
 
@@ -110,3 +112,11 @@ h2{
   footer p {
     color: #ccc;
   }
+
+
+.doclogo, .patlogo
+{
+  border-radius: 50%;
+  border: 2px solid paleturquoise;
+  width:300px
+}
