@@ -1,29 +1,112 @@
  #title{
     background-color: #fafafa;
   }
-  
+
+#page-break{
+  border-bottom: 1px solid #ececec;
+    padding-top: 44px;
+
+}
+
+#FAQs{
+  padding-bottom: 300px;
+  padding-top: 10px;
+  background-color: #e8f1f5;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  font-family: 'Montserrat', sans-serif;
+}
+
+#heading{
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+}
+h2{
+  text-align: center;
+  padding-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.LoginDoctor{
+  padding-top: 200px;
+  padding-left: 600px;
+}
+.LoginPatient{
+  padding-top: 200px;
+  padding-left: 600px;
+}
+
+.SignupDoctor{
+  padding-top: 200px;
+  padding-left: 600px;
+}
+.SignupPatient{
+  padding-top: 200px;
+  padding-left: 600px;
+}
+
+.login-select{
+  padding: 100px;
+}
+
+.signup-select{
+  padding: 100px;
+}
+
+.para{
+  text-align: center;
+  padding:10px 50px 10px 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.lists{
+  padding-top: 50px;
+  font-size: 50 px;
+  padding-left: 30px;
+}
   .navbar {
    height: 100px;
   }
-  
+
   .nav-item a:hover{
-  
+
       color: black;
   }
-  
+
   .blog :hover
   {
     background-color: black;
     color: white;
   }
-  
-  
+
+
   .blogs
   {
     border : 2px solid grey;
     border-radius: 7px;
   }
-  
-  
-  
-  
+
+  .download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+  body {
+    background: #eee;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    /*padding: 0 16px;*/
+  }
+
+  footer {
+
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+
+  footer p {
+    color: #ccc;
+  }

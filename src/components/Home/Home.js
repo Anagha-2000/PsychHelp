@@ -2,23 +2,24 @@ import React from "react";
 import Navbar from "../../UI/Navbar/Navbar";
 import classes from "./Home.module.css";
 import hero from "../../assets/hero.png";
-
+import { Link } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
+import FAQs from "../FAQs";
 const Home = () => {
+
+
+
     return (
         <div className={classes.Home}>
             <Navbar />
+
             {/* <div className="container"> */}
             <div
-                className={["row d-flex align-items-center", classes.Home].join(
-                    " "
-                )}
-            >
+                className={["row d-flex align-items-center", classes.Home].join(" ")}>
                 <div
                     className={[
                         "col-sm-6 col-md-6 col-sm-12 col-xs-12 d-flex flex-column",
-                        classes.cardColumn,
-                    ].join(" ")}
-                >
+                        classes.cardColumn, ].join(" ")} >
                     <div>
                         <h2 className={classes.title}>Matching patient <br/> with great doctors</h2><br/>
                     </div>
@@ -32,23 +33,30 @@ const Home = () => {
                                     With supporting text below as a natural
                                     lead-in to additional content.
                                 </p>
+
+                                <Link to="/doctor">
                                 <button className="btn btn-primary">
-                                    Learn More
-                                </button>
+                                   Learn More
+                               </button>
+                                </Link>
+
                             </div>
                         </div>
                         <div
-                            className={["card col-lg-6", classes.cardAlignment].join(' ')}
-                        >
+            className={["card col-lg-6", classes.cardAlignment].join(' ')}>
                             <div className="card-body">
                                 <h5 className="card-title">For Patients</h5>
                                 <p className="card-text">
                                     With supporting text below as a natural
                                     lead-in to additional content.
                                 </p>
-                                <button className="btn btn-primary">
+
+                                <Link to="/patient">
+                                <button className="btn btn-primary" >
                                     Learn More
                                 </button>
+                                </Link>
+
                             </div>
                         </div>
                     </div>
@@ -62,9 +70,14 @@ const Home = () => {
                     <img src={hero} alt="Hero" />
                 </div>
             </div>
-            {/* </div> */}
+
+
+            <FAQs />
+
+
+
         </div>
     );
-};
 
+};
 export default Home;

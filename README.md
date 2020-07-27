@@ -8,26 +8,26 @@ This Project is website and it is developed under [**_StudentCode-in_**](https:/
 
 **About SCI**
 
-Student Code-in is a global program that helps students grow with “OPEN SOURCE”. It is a 2 months long Open-Source initiative which provides you the best platform to improve your skills and abilities by contributing to vast variety of OPEN SOURCE Projects. In this,all the registered participants would get an exquisite opportunity to interact with the mentors and the Organizing Team. 
+Student Code-in is a global program that helps students grow with “OPEN SOURCE”. It is a 2 months long Open-Source initiative which provides you the best platform to improve your skills and abilities by contributing to vast variety of OPEN SOURCE Projects. In this,all the registered participants would get an exquisite opportunity to interact with the mentors and the Organizing Team.
 
 ![alt STUDENT CODE-IN LOGO](https://github.com/StudentCode-in/PsychHelp/blob/master/STUDENT%20CODE-IN.jpg)
 
 # Vision
-[**_PychHelp_**](https://psych-help.netlify.app/) primarily focuses on people suffering from psychological problems like anxiety, depression, etc. With the help of this website, patients can directly interact with the doctors online without going in person. 
+[**_PychHelp_**](https://psych-help.netlify.app/) primarily focuses on people suffering from psychological problems like anxiety, depression, etc. With the help of this website, patients can directly interact with the doctors online without going in person.
 
 The idea behind this is to make people come forward and address their psychological issues without being judged by the society. So that they can communicate with the doctor without any hesitation.
-# Objective: 
+# Objective:
 
 This website will help people suffering from psychological problems, can directly communicate with the doctor, without coming in person.
 
 # Tools Used:
 
-Tools used will be: 
+Tools used will be:
 * HTML
 * CSS
 * JavaScript
 * jQuery
-* Express.js 
+* Express.js
 * Node.js
 * React
 
@@ -42,12 +42,11 @@ Tools used will be:
 
 `$ cd PsychHelp`
 
-## Project Status :
--> You can see the progress of the site at :
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a3b3468b-4ace-4191-99b2-583dcce58881/deploy-status)](https://app.netlify.com/sites/psych-help/deploys)
-
 # SITE MAP :
 ![alt SITE MAP](https://github.com/StudentCode-in/PsychHelp/blob/master/SITE%20MAP.png)
+
+# Code of Conduct :
+* [Code of Conduct](https://github.com/Anagha-2000/PsychHelp/blob/master/CODE_OF_CONDUCT.md)
 
 # LICENSE :
 `License`
@@ -56,5 +55,3 @@ Tools used will be:
 * Copyright 2020 @ Anagha Patil
 
 *Note*: I will add on more info according to the advancement of the project.
-
-
