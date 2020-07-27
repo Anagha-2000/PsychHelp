@@ -31,6 +31,7 @@ const Home = () => {
                                 <h5 className="card-title">For Doctors</h5>
                                 <p className="card-text">
                                 Doctors are persons who prescribe medicines of which they know little, to cure diseases of which they know less, in human beings of whom they know nothing.
+                                We welcome you!
                                 </p>
 
                                 <Link to="/doctor">
@@ -47,6 +48,7 @@ const Home = () => {
                                 <h5 className="card-title">For Patients</h5>
                                 <p className="card-text">
                                 A man is a living being and has to rest every now and then both physically and emotionally.It is normal to feel exhausted and have burnout sometimes but feeling so all the time must be avoided because it is counter productive.
+
                                 </p>
 
                                 <Link to="/patient">
@@ -68,6 +70,7 @@ const Home = () => {
                     <img src={hero} alt="Hero" />
                 </div>
             </div>
+
 
 
             <FAQs />
