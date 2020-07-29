@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../../UI/Navbar/Navbar";
 import classes from "./Home.module.css";
 import hero from "../../assets/hero.png";
+import ContactUs from "./contactUs";
 
 const Home = () => {
     return (
@@ -20,7 +21,7 @@ const Home = () => {
                     ].join(" ")}
                 >
                     <div>
-                        <h2 className={classes.title}>Matching patient <br/> with great doctors</h2><br/>
+                        <h2 className={classes.title}>Matching patient <br /> with great doctors</h2><br />
                     </div>
                     <div className={classes.cardRow}>
                         <div
@@ -63,6 +64,7 @@ const Home = () => {
                 </div>
             </div>
             {/* </div> */}
+            <ContactUs />
         </div>
     );
 };
