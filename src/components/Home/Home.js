@@ -2,9 +2,14 @@ import React from "react";
 import Navbar from "../../UI/Navbar/Navbar";
 import classes from "./Home.module.css";
 import hero from "../../assets/hero.png";
+
+import ContactUs from "./contactUs";
+
+
 import { Link } from "react-router-dom";
 import { NavLink } from 'react-router-dom';
 import FAQs from "../FAQs";
+
 const Home = () => {
 
 
@@ -21,7 +26,7 @@ const Home = () => {
                         "col-sm-6 col-md-6 col-sm-12 col-xs-12 d-flex flex-column",
                         classes.cardColumn, ].join(" ")} >
                     <div>
-                        <h2 className={classes.title}>Matching patient <br/> with great doctors</h2><br/>
+                        <h2 className={classes.title}>Matching patient <br /> with great doctors</h2><br />
                     </div>
                     <div className={classes.cardRow}>
                         <div
@@ -71,9 +76,14 @@ const Home = () => {
                 </div>
             </div>
 
+            {/* </div> */}
+            <ContactUs />
+
+
 
 
             <FAQs />
+
 
 
 
