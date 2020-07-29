@@ -42,6 +42,14 @@ Tools used will be:
 
 `$ cd PsychHelp`
 
+->  Install required scripts using:
+
+`yarn install`
+
+## Start :
+
+`yarn start`
+
 # SITE MAP :
 ![alt SITE MAP](https://github.com/StudentCode-in/PsychHelp/blob/master/SITE%20MAP.png)
 
