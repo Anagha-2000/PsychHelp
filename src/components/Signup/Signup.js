@@ -39,9 +39,7 @@ const Signup = () => {
       <h3>Patient</h3>
     </Card.Text>
         <Link to="/SignupPatient">
-    <Button variant="primary" type="submit">
-      Sign Up with Google
-      </Button>
+      <GoogleButton/>
         </Link>
   </Card.Body>
   <Card.Footer>
