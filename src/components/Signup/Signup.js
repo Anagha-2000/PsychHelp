@@ -6,7 +6,7 @@ import Footer from '../Footer';
 import classes from '../../UI/Navbar/Navbar.module.css';
 import { Link } from "react-router-dom";
 import SignupNavbar from "./SignupNavbar";
-
+import GoogleButton from 'react-google-button';
 
 const Signup = () => {
     return (
@@ -23,9 +23,7 @@ const Signup = () => {
     </Card.Text>
       <Link to="/SignupDoctor">
 
-    <Button variant="primary" type="submit">
-      Sign Up with Google
-      </Button>
+      <GoogleButton/>
         </Link>
   </Card.Body>
   <Card.Footer>
