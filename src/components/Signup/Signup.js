@@ -24,7 +24,7 @@ const Signup = () => {
       <Link to="/SignupDoctor">
 
     <Button variant="primary" type="submit">
-      {GoogleLogin}
+      Sign Up with Google
       </Button>
         </Link>
   </Card.Body>
