@@ -42,8 +42,11 @@ Tools used will be:
 ->  Change your directory to the cloned repo as:
 
 `$ cd PsychHelp`
+
 `$ npm install`
+
 `$ npm start`
+
 
 # SITE MAP :
 ![alt SITE MAP](https://github.com/StudentCode-in/PsychHelp/blob/master/SITE%20MAP.png)
