@@ -36,12 +36,14 @@ Tools used will be:
 ## Clone :
 ->  Clone this repo to your local machine as:
 
-`$ git clone https://github.com/StudentCode-in/PsychHelp.git`
+`$ git clone https://github.com/Anagha-2000/PsychHelp.git`
 
 ## Setup :
 ->  Change your directory to the cloned repo as:
 
 `$ cd PsychHelp`
+`$ npm install`
+`$ npm start`
 
 # SITE MAP :
 ![alt SITE MAP](https://github.com/StudentCode-in/PsychHelp/blob/master/SITE%20MAP.png)
