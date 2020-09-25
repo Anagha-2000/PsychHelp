@@ -1,17 +1,6 @@
 # PsychHelp
 
-This Project is website and it is developed under [**_StudentCode-in_**](https://scodein.tech/)
-
-# OPEN SOURCE CONTEST
-
-## STUDENT CODE IN
-
-**About SCI**
-
-Student Code-in is a global program that helps students grow with “OPEN SOURCE”. It is a 2 months long Open-Source initiative which provides you the best platform to improve your skills and abilities by contributing to vast variety of OPEN SOURCE Projects. In this,all the registered participants would get an exquisite opportunity to interact with the mentors and the Organizing Team.
-
-![alt STUDENT CODE-IN LOGO](https://github.com/StudentCode-in/PsychHelp/blob/master/STUDENT%20CODE-IN.jpg)
-
+This Project is website. 
 
 # Vision
 [**_PychHelp_**](https://psych-help.netlify.app/) primarily focuses on people suffering from psychological problems like anxiety, depression, etc. With the help of this website, patients can directly interact with the doctors online without going in person.
